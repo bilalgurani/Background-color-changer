@@ -1,0 +1,39 @@
+body {
+    padding: 0;
+    margin: 0;
+    /*background-image: linear-gradient(to right bottom, blue, red);*/
+}
+.header {
+    display: flex;
+ }
+.header h2 {
+    padding: .5rem;
+    font-size: 3rem;
+    color: white;
+    align-items: center;
+    margin: 20px auto;
+}
+.body {
+    transition: all .2s;
+    display: block;
+    text-align: center;
+}
+.body button {
+    box-shadow: 1px 2px 7px rgba(0, 0, 0, .4);
+    border: none;
+    font-weight: bold;
+    border-radius: 10px;
+    padding: 10px 40px;
+    font-size: 20px;
+    margin: 20px auto;
+    transition: all .2s;
+}
+.body h2 {
+    margin: 20px auto;
+}
+.body button:hover {
+    transition: all .2s;
+    margin: 18px auto;
+    background-color: #ce3030;
+}
+
